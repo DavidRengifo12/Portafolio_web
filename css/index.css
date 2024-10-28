@@ -1,0 +1,118 @@
+body {
+    background-image: url("../img/img\ hacker.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+
+
+main {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    justify-content: space-between;
+    border-radius: 5px;
+
+
+}
+
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    margin: 10px;
+    
+
+
+}
+
+
+.border2 {
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+
+}
+
+
+.background2{
+    background-color: rgba(169, 169, 169, 0.5);
+
+
+}
+
+.background3{
+    background-color: rgba(0, 0, 255, 0.5);
+
+
+}
+.background {
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+.menuprincipal {
+    width: 60%;
+
+
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+
+.menu1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+
+.item {
+    list-style: none;
+}
+
+.proyectos {
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+}
+
+.cuadro {
+    margin: 2px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    height: 80px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.llamar {
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+.at{
+    font-size:  medium;
+
+
+}

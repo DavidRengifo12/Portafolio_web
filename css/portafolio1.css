@@ -1,0 +1,217 @@
+body {
+    background-color: lightblue;
+    background-image: url("../img/img\ azulmrado.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: auto;
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+main {
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+footer {
+    border: 1px solid blue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section{
+    background-color: rgba(70, 130, 180, 0.8);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    width: 60%;
+}
+
+
+
+
+.color0 {
+    background-color: rgba(255, 255, 102, 0.5);
+    padding: 15px; 
+    margin: 10 auto; 
+    max-width: 100%; 
+}
+
+
+.centrar {
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: 10 auto;
+}
+
+.cuadros {
+    border-radius:15px;
+    
+    width: 90%;
+    margin: 10px;
+
+}
+
+.color1 {
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 40%;
+    margin: 10px;
+}
+
+.color2 {
+    background-color: rgba(255, 255, 102, 0.5);
+
+
+}
+
+
+h1{
+    color: white;
+
+}
+
+
+.color4 {
+    border: 2px solid black;
+    width: 55%;
+    text-align: center;
+}
+
+.contenedor {
+    border-radius: 5px;
+    background-color: rgba(70, 130, 180, 0.1);
+    display: flex;
+    width: 85%;
+}
+
+nav {
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    width: 50vw;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.container article {
+    width: 48%;
+}
+
+
+img {
+    border: 1px solid black;
+    display: flex;
+    height: auto;
+    width: 30%;
+    margin: 10px auto;
+}
+
+.images1 {
+    width: 50%;
+    margin: auto;
+
+
+}
+
+
+.images2 {
+    border: 1px solid black;
+    display: flex;
+    width: 45%;
+    margin: 10px;
+
+}
+
+
+aside {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.border-a {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 2px solid rgba(70, 130, 180, 0.9);
+    border-right: 2px solid rgba(70, 130, 180, 0.9);
+    border-bottom: 2px solid rgba(70, 130, 180, 0.9);
+    border-left: 2px solid rgba(70, 130, 180, 0.9);
+    margin: 10px;
+}
+
+.border-f {
+    border-top: 2px solid rgba(70, 130, 180, 0.9);
+    border-right: 2px solid  rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid rgba(70, 130, 180, 0.9);
+    border-left: 2px solid  rgba(255, 255, 255, 0.6);
+    margin: 10px;
+}
+
+.border-i {
+    border-top: 2px solid rgba(255, 215, 0, 0.8);
+    border-right: 2px solid rgba(255, 105, 180, 0.8); 
+    border-bottom: 2px solid rgba(255, 215, 0, 0.8); 
+    border-left: 2px solid rgba(255, 105, 180, 0.8); 
+    margin: 10px;
+}
+
+
+
+.shadow {
+    border: 2px solid yellow;
+    box-shadow: 15px 15px 40px 2px black,
+        5px 5px 40px 2px yellow,
+        5px 5px 40px 2px blue;
+}
+
+.shadow2 {
+
+    box-shadow: 12px 12px 12px 2px blue,
+        5px 5px 40px 2px wheat,
+        3px 3px 20px 2px red;
+}
+
+.shadow3 {
+    box-shadow: 14px 14px 14px 2px gold,
+        6px 6px 30px 2px green,
+        4px 4px 15px 1px aqua;
+
+
+
+}

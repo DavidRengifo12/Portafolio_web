@@ -1,0 +1,46 @@
+body{
+    background-image: url("../img/img\ hacker.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    color: yellow;
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgba(151, 151, 151, 0.836);
+    
+}
+
+.menuprincipal{
+    width: 40%;
+}
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item{
+    list-style: none;
+}
+section{
+    border: 1px solid black;
+}
+.main{
+    margin: 5px;
+    background-color: rgba(151, 151, 151, 0.836);
+}
+
+footer{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgba(151, 151, 151, 0.836);
+    text-align: center;
+}
+a:hover{
+    background-color: white;
+}

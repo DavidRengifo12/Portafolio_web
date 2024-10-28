@@ -1,0 +1,71 @@
+body{
+    background-image: url("../img/img\ azulmrado.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid black;
+    background-color: rgba(151, 151, 151, 0.836);
+    margin: 10px;
+}
+main{
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgba(151, 151, 151, 0.836);
+}
+
+footer{
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(151, 151, 151, 0.836); 
+}
+
+section{
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 7px;
+}
+.menuprincipal{
+    width: 40%;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+a{
+    color: black !important; /*!important es una forma de decirle al navegador que un estilo específico debe ser aplicado, sin importar qué otras reglas existan. Es como darle un "superpoder" a una regla CSS.*/
+}
+
+a:hover{
+    background-color: gold;
+}
+.item{
+    list-style-type: none;
+}
+.cuadro{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+.centrar{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    margin: 15px;
+}
+
+.centrart{
+    justify-content: center;
+    text-align: center;
+}
